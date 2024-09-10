@@ -1,0 +1,123 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;  
+font-family: sans-serif;
+color: #015F7B;;
+
+}
+section h1{
+    color: #015F7B;
+}
+body{
+    background:  #015F7B;
+}
+.container{
+ 
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+margin: auto;
+  margin-top: 5%;
+   
+}
+aside{
+    flex: 5;
+    background: url(https://www.ababank.com/typo3conf/ext/boxmodel/Resources/Private/Templates/ABA/images/banners/aba-mobile.jpg);
+     background-size: cover;
+     background-position: center 25%;
+}
+aside p{
+    color: #015F7B;
+    font-weight:900;
+    font-size: 3rem;
+    
+    margin: auto;
+     width: 100%;
+     margin: auto;
+     
+    
+    
+}
+#under{
+    position: relative;
+    top:75%;  
+    margin-left: 5%; 
+}
+section{
+    padding: 30px;
+    flex: 3;
+    background: #fff;
+  
+}
+section img{
+    width: 15%;
+    height:12%;
+    border-radius: 100%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#icon{
+     position: relative;
+     top:26px;
+     left:90%;
+      
+     
+}
+section h2{
+    margin-bottom: 23px;
+}
+form{
+    padding:10px;
+    width: 80%;
+    margin: auto;
+    box-shadow:#015F7B 0px 1px 2px;
+    margin-top: 5%;
+}
+form h2{
+    text-align: center;
+    color: #015F7B;
+}
+label{
+ padding: 20px;
+}
+.input-group{
+   
+    margin-top: 5%;
+    box-sizing: border-box;
+} 
+
+ input{
+    padding:5px;
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: solid 2px #015F7B;
+
+}
+
+ a{
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+    font-size: 10px;
+}
+button{
+    padding: 10px 30px;
+    background:#015F7B;
+    margin-left:30%;
+    border: none;
+    border-radius: 7px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    color: #fff;
+}
+span{
+    font-weight: 700;
+    text-align: center;
+    margin-left:35%;
+    text-decoration: underline  solid 2px #015F7B;
+     
+
+}
